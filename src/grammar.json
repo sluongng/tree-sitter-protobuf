@@ -123,7 +123,7 @@
     },
     "syntaxValue": {
       "type": "PATTERN",
-      "value": "\"proto3\""
+      "value": "\"proto(2|3)\""
     },
     "extend": {
       "type": "SEQ",

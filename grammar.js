@@ -21,7 +21,7 @@ module.exports = grammar({
 
     // syntax
     syntax: ($) => seq('syntax', '=', $.syntaxValue, ';'),
-    syntaxValue: ($) => /"proto3"/,
+    syntaxValue: ($) => /"proto(2|3)"/,
     
     // extend
     extend: ($) => seq('extend', $.extendName, $.messageBody),
